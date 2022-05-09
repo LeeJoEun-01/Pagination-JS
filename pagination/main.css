@@ -16,3 +16,36 @@ th, td {
   padding: 3px 10px;
   border: 1px solid #000;
 }
+
+.off-screen {
+  display: none;
+}
+#nav {
+  width: 500px;
+  text-align: center;
+}
+#nav a {
+  display: inline-block;
+  padding: 3px 5px;
+  margin-right: 10px;
+  font-family:Tahoma;
+  background: #ccc;
+  color: #000;
+  text-decoration: none;
+}
+#nav a.active {
+  background: #333;
+  color: #fff;
+}
+
+/* .icon {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+}
+
+ion-icon {
+  width: 30px;
+  height: 30px;
+} */
